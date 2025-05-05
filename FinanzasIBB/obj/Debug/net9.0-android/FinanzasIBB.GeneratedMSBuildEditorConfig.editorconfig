@@ -1,0 +1,85 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net9.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = FinanzasIBB
+build_property.ProjectDir = C:\Users\rvillegasburgos\source\repos\FinanzasIBB\FinanzasIBB\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/rvillegasburgos/source/repos/FinanzasIBB/FinanzasIBB/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinanzasIBB.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/rvillegasburgos/source/repos/FinanzasIBB/FinanzasIBB/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinanzasIBB.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/rvillegasburgos/source/repos/FinanzasIBB/FinanzasIBB/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinanzasIBB.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/rvillegasburgos/source/repos/FinanzasIBB/FinanzasIBB/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinanzasIBB.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/rvillegasburgos/source/repos/FinanzasIBB/FinanzasIBB/Views/Gastos/EditarGastoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinanzasIBB.Views.Gastos.EditarGastoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Gastos\EditarGastoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Gastos\EditarGastoPage.xaml
+
+[C:/Users/rvillegasburgos/source/repos/FinanzasIBB/FinanzasIBB/Views/Gastos/NuevoGastoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinanzasIBB.Views.Gastos.NuevoGastoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Gastos\NuevoGastoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Gastos\NuevoGastoPage.xaml
+
+[C:/Users/rvillegasburgos/source/repos/FinanzasIBB/FinanzasIBB/Views/Gastos/VerGastoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinanzasIBB.Views.Gastos.VerGastoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Gastos\VerGastoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Gastos\VerGastoPage.xaml
+
+[C:/Users/rvillegasburgos/source/repos/FinanzasIBB/FinanzasIBB/Views/Ingresos/NuevoIngresoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinanzasIBB.Views.Ingresos.NuevoIngresoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Ingresos\NuevoIngresoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Ingresos\NuevoIngresoPage.xaml
+
+[C:/Users/rvillegasburgos/source/repos/FinanzasIBB/FinanzasIBB/Views/Ingresos/VerIngresoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinanzasIBB.Views.Ingresos.VerIngresoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Ingresos\VerIngresoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Ingresos\VerIngresoPage.xaml
+
+[C:/Users/rvillegasburgos/source/repos/FinanzasIBB/FinanzasIBB/Views/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinanzasIBB.Views.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\LoginPage.xaml
+
+[C:/Users/rvillegasburgos/source/repos/FinanzasIBB/FinanzasIBB/Views/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinanzasIBB.Views.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\MainPage.xaml

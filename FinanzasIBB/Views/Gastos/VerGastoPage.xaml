@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinanzasIBB.Views.Gastos.VerGastoPage"
+             Title="Ver Gastos">
+    
+    <ScrollView>
+        <Grid Padding="10" RowSpacing="10" ColumnSpacing="5">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="100"/>
+            </Grid.ColumnDefinitions>
+
+            <SearchBar Placeholder="Buscar..." 
+           x:Name="FiltroBuscar"
+           Grid.Row="0"
+           Grid.Column="0"
+           TextChanged="FiltroBuscar_TextChanged"/>
+
+            <Button Text="Nuevo"
+                    x:Name="NuevoButton"
+                    Grid.Row="0"
+                    Grid.Column="1"
+                    Clicked="NuevoButton_Clicked"/>
+
+            <CollectionView x:Name="ListaGastosCollection"
+                        ItemsSource="{Binding ListaGastos}"
+                        SelectionMode="Single"
+                        SelectionChanged="ListaGastosCollection_SelectionChanged"
+                        Grid.Row="1"
+                        Grid.ColumnSpan="3">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid ColumnSpacing="10" Padding="5">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                            </Grid.RowDefinitions>
+
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Label Grid.Column="1"
+                               Grid.Row="0"
+                               Text="{Binding NombreGasto}"
+                               FontAttributes="Bold"
+                               FontSize="Title"/>
+
+                            <Label Grid.Column="0"
+                               Grid.Row="1"
+                               Text="Monto"
+                               FontSize="Subtitle"/>
+
+                            <Label Grid.Row="1"
+                               Grid.Column="1"
+                               Text="{Binding ValorGasto, StringFormat='{0:C0}'}"
+                               FontSize="Subtitle"/>
+
+                            <Label Grid.Column="0"
+                               Grid.Row="2"
+                               Text="Fec. Vencimiento"
+                               FontSize="Subtitle"/>
+
+                            <Label Grid.Row="2"
+                               Grid.Column="1"
+                               Text="{Binding FecVencimientoGasto, StringFormat='{0:dd/MM/yyyy}'}"
+                               FontSize="Subtitle"/>
+
+                            <Label Grid.Column="0"
+                               Grid.Row="3"
+                               Text="Fec. Pago"
+                               FontSize="Subtitle"/>
+
+                            <Label Grid.Row="3"
+                               Grid.Column="1"
+                               Text="{Binding FecPagoGasto, StringFormat='{0:dd/MM/yyyy}'}"
+                               FontSize="Subtitle"/>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+        </Grid>
+    </ScrollView>
+</ContentPage>
